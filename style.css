@@ -1,0 +1,10 @@
+body {
+  background-image: url(img/IMG_1024.JPG); /* Specify the image path */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire container */
+  background-position: center; /* Centers the image in the container */
+  height: 100vh; /* Ensures the body covers the full viewport height */
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
