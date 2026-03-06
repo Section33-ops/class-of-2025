@@ -1,10 +1,24 @@
-/* body {
-  background-image: url(img/IMG_1024.JPG); 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-position: center; 
-  height: 100vh;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
   color: white;
-  font-size: 30px;
   font-weight: bold;
-} */
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
